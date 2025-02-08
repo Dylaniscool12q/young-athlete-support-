@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Young Athlete Support</title>
+  <!-- Import Montserrat font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    /* Header & Navigation */
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+      color: #fff;
+    }
+    /* Container */
+    .container {
+      max-width: 1100px;
+      margin: 100px auto 0;
+      padding: 20px;
+      background: #fff;
+    }
+    /* Sections */
+    section {
+      padding: 40px 0;
+      border-bottom: 1px solid #ccc;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 10px;
+    }
+    section p {
+      margin-bottom: 15px;
+    }
+    /* Training Drills Section */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .video-grid .drill {
+      text-align: center;
+    }
+    .video-grid iframe {
+      width: 100%;
+      height: 200px;
+    }
+    /* Nutrition Advice Section */
+    .nutrition-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .nutrition-category {
+      flex: 1;
+      min-width: 250px;
+      background: #eaeaea;
+      padding: 15px;
+      border-radius: 5px;
+    }
+    .nutrition-category h3 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    /* Coaching Advice Section */
+    .coaching-advice img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 20px auto;
+    }
+    /* Footer */
+    footer {
+      background: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <h1>Young Athlete Support</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#training-drills">Training Drills</a>
+      <a href="#nutrition-advice">Nutrition Advice</a>
+      <a href="#coaching-advice">Coaching Advice</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to Young Athlete Support</h2>
+      <p>
+        We are dedicated to supporting young athletes by offering comprehensive training resources,
+        detailed nutritional advice, and in-depth coaching guidance. Our goal is to empower players with the
+        skills and knowledge they need to excel on the field while understanding the importance of a balanced
+        diet and effective coaching strategies.
+      </p>
+      <p>
+        Our website is designed to be a one-stop resource for anyone looking to improve their football skills,
+        whether you are a player, a coach, or a mentor. If you have any questions or need more information, feel
+        free to contact us at <strong>dylanishema@gmail.com</strong>.
+      </p>
+    </section>
+
+    <!-- Training Drills Section -->
+    <section id="training-drills">
+      <h2>Training Drills</h2>
+      <p>
+        Click on the videos below to watch our collection of 7 effective training drills that focus on improving
+        dribbling, passing, shooting, and overall football skills.
+      </p>
+      <div class="video-grid">
+        <!-- Drill 1 -->
+        <div class="drill">
+          <iframe src="https://www.youtube.com/embed/tcoRi1OxFmo" frameborder="0" allowfullscreen></iframe>
+          <h3>Training Drill 1</h3>
+        </div>
+        <!-- Drill 2 -->
+        <div class="drill">
+          <iframe src="https://www.youtube.com/embed/OiBQwlT2_cE" frameborder="0" allowfullscreen></iframe>
+          <h3>Training Drill 2</h3>
+        </div>
+        <!-- Drill 3 -->
+        <div class="drill">
+          <iframe src="https://www.youtube.com/embed/M6yg586OC_Y" frameborder="0" allowfullscreen></iframe>
+          <h3>Training Drill 3</h3>
+        </div>
+        <!-- Drill 4 -->
+        <div class="drill">
+          <iframe src="https://www.youtube.com/embed/HVzLBVYX01E" frameborder="0" allowfullscreen></iframe>
+          <h3>Training Drill 4</h3>
+        </div>
+        <!-- Drill 5 -->
+        <div class="drill">
+          <iframe src="https://www.youtube.com/embed/NJK_sS_wxpo" frameborder="0" allowfullscreen></iframe>
+          <h3>Training Drill 5</h3>
+        </div>
+        <!-- Drill 6 -->
+        <div class="drill">
+          <iframe src="https://www.youtube.com/embed/QDb5-cMIbjM" frameborder="0" allowfullscreen></iframe>
+          <h3>Training Drill 6</h3>
+        </div>
+        <!-- Drill 7 -->
+        <div class="drill">
+          <iframe src="https://www.youtube.com/embed/sfP9nVmU9sY" frameborder="0" allowfullscreen></iframe>
+          <h3>Training Drill 7</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nutrition Advice Section -->
+    <section id="nutrition-advice">
+      <h2>Nutrition Advice</h2>
+      <p>
+        A balanced diet is key to fueling performance on the field. Below are detailed food groups that can help you
+        maximize your training and recovery:
+      </p>
+      <div class="nutrition-section">
+        <!-- Proteins -->
+        <div class="nutrition-category">
+          <h3>Proteins</h3>
+          <p><strong>Foods to Eat:</strong> Chicken, Turkey, Lean Beef, Fish, Eggs, Tofu, Beans, Lentils, Greek Yogurt, Cottage Cheese.</p>
+          <p>Proteins are essential for muscle repair and growth. They help you recover after intense training sessions and build strength.</p>
+        </div>
+        <!-- Carbohydrates -->
+        <div class="nutrition-category">
+          <h3>Carbohydrates</h3>
+          <p><strong>Foods to Eat:</strong> Brown Rice, Whole Grain Pasta, Quinoa, Oats, Sweet Potatoes, Whole Grain Bread, Fruits, Vegetables.</p>
+          <p>Carbohydrates provide the energy you need for workouts and daily activities. They are the body's main fuel source during exercise.</p>
+        </div>
+        <!-- Fats -->
+        <div class="nutrition-category">
+          <h3>Fats</h3>
+          <p><strong>Foods to Eat:</strong> Avocados, Nuts, Seeds, Olive Oil, Fatty Fish, Nut Butters, Dark Chocolate (in moderation).</p>
+          <p>Healthy fats support brain function and overall energy levels. They are important for long-term health and recovery.</p>
+        </div>
+        <!-- Vitamins & Minerals -->
+        <div class="nutrition-category">
+          <h3>Vitamins & Minerals</h3>
+          <p><strong>Foods to Eat:</strong> Leafy Greens, Berries, Citrus Fruits, Broccoli, Carrots, Bell Peppers, Whole Grains.</p>
+          <p>These foods are packed with essential vitamins and minerals that support immune function, bone health, and overall well-being.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coaching Advice Section -->
+    <section id="coaching-advice">
+      <h2>Coaching Advice</h2>
+      <p>
+        Whether you're a coach, a mentor, or a parent, effective coaching is crucial in developing young football players.
+        Below is a comprehensive guide on coaching strategies, tips, and techniques to help you create a positive and
+        productive training environment.
+      </p>
+      <h3>Understanding the Fundamentals</h3>
+      <p>
+        Good coaching starts with a solid understanding of the fundamentals of football. Know the rules, the skills, and
+        the strategies that work best in various situations. As a coach, you are not just teaching techniques but also
+        setting an example of discipline, determination, and respect for the game.
+      </p>
+      <h3>Building a Positive Environment</h3>
+      <p>
+        Creating a supportive and encouraging environment is key. Emphasize teamwork, respect, and open communication.
+        Tailor your approach to the needs of individual players, ensuring that every team member feels valued. Celebrate
+        successes, no matter how small, and use setbacks as learning opportunities.
+      </p>
+      <h3>Structured Training Programs</h3>
+      <p>
+        Develop a training program that includes warm-ups, skill drills, tactical sessions, and cool-down exercises.
+        Incorporate a variety of drills to keep sessions engaging. Focus on both individual skill development and team
+        strategies. Regular assessments can help track progress and identify areas for improvement.
+      </p>
+      <h3>Effective Communication</h3>
+      <p>
+        Communication is at the heart of effective coaching. Clearly explain drills and expectations, and be open to
+        feedback from your players. Listening to your players’ concerns and ideas can lead to better coaching strategies
+        and a more cohesive team.
+      </p>
+      <h3>Instilling Life Lessons</h3>
+      <p>
+        Coaching goes beyond just the game. Use your position to teach life skills such as teamwork, perseverance,
+        responsibility, and respect. Share your own experiences and encourage players to learn from both successes and
+        failures.
+      </p>
+      <h3>Continuous Learning and Improvement</h3>
+      <p>
+        Great coaches never stop learning. Attend coaching seminars, read up on the latest techniques, and watch
+        other successful coaches in action. Reflect on your own methods regularly, and be open to adopting new strategies
+        that benefit your team.
+      </p>
+      <p>
+        It is important to remember that not all players have the same opportunities. Many talented kids, especially those
+        who are less fortunate, may not have access to proper gear. They might even play barefoot, yet their passion and
+        determination shine through.
+      </p>
+      <img src="https://via.placeholder.com/400x300?text=Barefoot+Footballers" alt="Barefoot Footballers">
+      <p>
+        This image is a reminder of the resilience and passion displayed by children who overcome adversity to play the game
+        they love. As a coach, strive to create opportunities that level the playing field and inspire every young athlete to
+        reach their full potential.
+      </p>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Young Athlete Support. All rights reserved.</p>
+  </footer>
+</body>
+</html>
